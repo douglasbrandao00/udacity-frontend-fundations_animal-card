@@ -1,36 +1,40 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+/* add your CSS here */
+
+.bolded {
+  font-weight: bold;
+}
+
+.information {
+  border: 1px solid;
+  border-color: rgba(200, 200, 207, 0.6);
+}
+
+div {
+  border: 1px solid;
+  padding: 10px 10px;
+  border-color: rgba(200, 200, 207, 0.4);
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif, arial;
+p {
+  margin: 10px 0;
 }
 
-.animal-card {
-  width: 320px;
-  padding: 10px;
-}
-.animal-card img {
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
-
-.bordered {
-  border: 1px solid grey;
-}
-
-.pet-description {
-  padding: 10px;
-}
-
-span {
-
+.fact {
+  font-style: italic;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 0px;
+  padding: 0;
+}
+
+
+img {
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 322px;
+  box-shadow: 5px 5px rgba(68, 68, 68, 0.1);
 }
