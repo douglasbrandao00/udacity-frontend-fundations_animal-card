@@ -1,0 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, arial;
+}
+
+.animal-card {
+  width: 320px;
+  padding: 10px;
+}
+.animal-card img {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+.bordered {
+  border: 1px solid grey;
+}
+
+.pet-description {
+  padding: 10px;
+}
+
+span {
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
